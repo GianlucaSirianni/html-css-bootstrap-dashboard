@@ -6,9 +6,33 @@
     <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 <body>
-    
+    <nav class="navbar white">
+        <div class="col-2">
+          <a class="navbar-brand d-flex justify-content-center" href="#">
+            <img src="./assets/img/mobile-logo.png" alt="" class="logoMobile">
+          </a>
+        </div>
+        <div class="col-8">
+            <div class="input-group flex-nowrap ">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+
+        <div class="col-2 d-flex justify-content-center">
+            <a href="#">
+                <i class="fa-solid fa-bell yellow"></i>
+            </a>
+        </div>
+      </nav>
+
+      <main class="row">
+        <section class="col-2 sb"></section>
+        <section class="col-10 content"></section>
+      </main>
 </body>
 </html>

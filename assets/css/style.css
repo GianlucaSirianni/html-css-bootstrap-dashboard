@@ -1,0 +1,29 @@
+nav{
+    height: 100px;
+}
+
+.yellow{
+    color: goldenrod;
+}
+
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: lightgrey;
+}
+
+.logoMobile{
+    width: 2rem;
+}
+
+.sb{
+    height: calc(100vh - 100px);
+    background-color: aqua;
+}
+
+.content{
+    height: calc(100vh - 100px);
+    background-color: red;
+}
