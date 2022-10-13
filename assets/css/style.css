@@ -17,9 +17,7 @@ main{
 }
 
 
-/* .sidebarL{
-    height: calc(100vh - 100px);
-} */
+
 
 .yellow{
     color: goldenrod;
@@ -78,3 +76,28 @@ main{
 .ovfw{
     overflow: auto;
 }
+
+.yellowBtn{
+    background-color: rgb(255, 200, 7);
+    border-color: rgb(255, 200, 7);
+}
+
+.hoverMe:hover{
+    background-color: lightgray;
+    opacity: 30%;
+
+}
+
+@media screen and (max-width: 991px){
+
+    #offCanvas{
+       width: 40%;
+    }
+ }
+
+@media screen and (min-width: 992px){
+
+    #offCanvas{
+       width: 75%;
+    }
+ }
