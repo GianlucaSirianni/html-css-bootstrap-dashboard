@@ -14,9 +14,8 @@ nav{
     background-color: lightgrey;
 }
 
-.aqua{
-    background-color: aqua;
-    height: 40px;
+.hpix{
+    height: 150px;
 }
 
 .logoMobile{
@@ -31,9 +30,31 @@ nav{
 
 .content{
     height: calc(100vh - 100px);
-    background-color: red;
+    /* background-color: red; */
 }
 
 .pZeroTre{
     margin-top: 0.3rem;
+}
+
+.darkBlue{
+    background-color: darkblue;
+    color: white;
+    /* width: 2rem; */
+}
+
+.jt-avatar {
+    max-width: 25px;
+}
+
+.titleC{
+    border-radius: 5px;
+}
+
+.underline{
+    
+}
+
+.borderZ{
+    border: 1px solid lightgrey;
 }
