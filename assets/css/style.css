@@ -1,6 +1,14 @@
+body{
+    height: 100vh;
+}
+
 nav{
     height: 100px;
 }
+
+/* .sidebarL{
+    height: calc(100vh - 100px);
+} */
 
 .yellow{
     color: goldenrod;
@@ -51,10 +59,10 @@ nav{
     border-radius: 5px;
 }
 
-.underline{
-    
-}
-
 .borderZ{
     border: 1px solid lightgrey;
+}
+
+.ovfw{
+    overflow: auto;
 }
