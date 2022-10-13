@@ -11,10 +11,6 @@ main{
     overflow-y: auto;
 }
 
-.debugOverflow{
-    height: 100%;
-    overflow: scroll;
-}
 
 
 
@@ -56,8 +52,9 @@ main{
 }
 
 .darkBlue{
-    background-color: darkblue;
+    background-color: rgba(0,0,255,0.3);
     color: white;
+
     /* width: 2rem; */
 }
 
